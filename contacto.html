@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto cHTML2024</title>
+  <meta name="author" content="GEPH" />
+  <meta name="description" content="HTML GEPH" />
+  <meta name="keywords" content="HTML, meta tag, tag reference" />
+                    
+  <link rel="stylesheet" href="stylecontacto.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+                    
+
+
+</head>
+<body>
+
+<header>
+  <h1>Pagina del conjunto</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li> 	
+      <li><a href="preferencias.html">Preferencias</a></li> 	
+      <li><a href="audiovisuales.html">Audiovisuales</a></li> 	
+      <li><a href="contacto.html">Contacto</a></li> 	
+	  
+    </ul>	
+  </nav>
+</header>
+<h2> Contacto del conjunto, un paso adelante ...</h2>
+<hr />
+
+
+
+<div class="contenedor-formulario">
+  <form>
+    <label for="nombre">Nombre: </label>
+    <input type="text" id="nombre" name="nombre" placeholder="Escribir el nombre ..." required minlength="3" />
+    
+    <label for="apellido">Apellido: </label>
+    <input type="text" id="apellido" name="apellido" placeholder="Escribir el apellido ..." required minlength="3" />
+
+    <label for="mail">Email: </label>
+    <input type="email" id="mail" name="mail" placeholder="Escribir el email ..." required  />
+
+    <label for="pais">Pais:</label>
+    <select id="pais" name="pais">
+      <option value="Argentina">Argentina</option>
+      <option value="Chile">Chile</option>
+      <option value="Bolivia">Bolivia</option>
+      <option value="Peru">Peru</option>
+      <option value="Uruguay">Uruguay</option>
+      <option value="España">España</option>
+      <option value="Colombia">Colombia</option>
+      <option value="Venezuela">Venezuela</option>
+      <option value="Paraguay">Paraguay</option>
+      <option value="Ecuador">Ecuador</option>
+    </select>
+
+    <label for="comentario">Comentario: </label>
+    <textarea id="comentario" name="comentario" placeholder="Escribir comenatrio ..."></textarea>
+    
+    <label for="motivo">Motivo de contacto: </label>
+    <input type="radio" id="motivo" name="motivo"><i>Colombia</i></input>
+    <input type="radio" id="motivo" name="motivo"><i>Tierra</i></input>
+    <input type="radio" id="motivo" name="motivo"><i>Querida</i></input>
+    <input type="radio" id="motivo" name="motivo"><i>Himno</i></input>
+
+    <input type="submit" value="Enviar" />  
+  </form>
+
+
+</div>
+
+
+<section>
+  <article>
+    <h2>Articulo</h2>  
+  </article>
+  <article>
+    <h2>Articulo</h2>  
+  
+  </article>
+
+</section>
+
+
+
+
+<footer class="footer">
+  <p>Derechos reservados &copy; 2024</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>
